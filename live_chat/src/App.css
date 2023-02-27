@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+@media (max-aspect-ratio: 7/10) {
+  .JoinPage {
+    display: flex;
+    width: 100vw !important;
+    height: 100vh !important;background-color: rgb(31, 29, 29);
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .JoinContainer {
+    width: 100% !important;
+    margin-top: 30vw;
+
+  }
+
+  .JoinContainer > img {
+    width: 30vw !important;
+  }
+
+  .JoinContainer > h1 {
+    font-size: 6vw !important;
+    width: 65vmax !important;
+    border-bottom: 0.6vmax solid white !important ;
+    padding: 3vw !important;
+  }
+
+  #joinInput {
+    width: 70% !important;
+    padding: 4vw !important;
+    font-size: 5vw !important;
+    margin: 5vw !important;
+  }
+
+  .joinBtn {
+    width: 65vw !important;
+    padding: 4vw !important;
+
+    font-size: 5vw !important;
+  }
+
+  .chatContainer {
+    height: 100vh !important;
+    width: 100% !important;
+    background-color: white !important;
+  }
+
+  .header {
+    height: 10% !important;
+  }
+
+  .header > h2 {
+    font-size: 5vw !important;
+    margin: 8vw !important;
+  }
+  .header img {
+    margin: 6vw !important;
+    transform: scale(2) !important;
+  }
+  .header > img:hover {
+    transform: scale(3.2) !important;
+  }
+
+  .chatBox {
+    height: 80% !important;
+  }
+
+  .inputBox {
+    height: 10% !important;
+  }
+
+  #chatInput {
+    padding: 4vw !important;
+    font-size: 4vw !important;
+  }
+
+  .messageBox {
+    padding: 3vw !important;
+    margin: 3vw !important;
+    border-radius: 1.5vw ;
+    font-size: 3.7vw !important;
+  }
+}
